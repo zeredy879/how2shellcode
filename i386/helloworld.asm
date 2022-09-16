@@ -7,5 +7,4 @@ section .text:
 _start:
     mov eax, 0xb
     mov ebx, helloworld
-    xor ecx, ecx
     int 0x80
